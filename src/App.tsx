@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
+import '@ionic/react/css/core.css';
+import { IonButton, IonDatetime } from '@ionic/react';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +17,8 @@ function App() {
             count is: {count}
           </button>
         </p>
+        <IonDatetime displayFormat="MM/DD/YYYY" placeholder="Select Date"></IonDatetime>
+<IonButton fill="clear">Start</IonButton>
         <p>
           Edit <code>App.tsx</code> and save to test HMR updates.
         </p>

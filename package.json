@@ -7,6 +7,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@ionic/react": "^5.5.4",
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
   },
